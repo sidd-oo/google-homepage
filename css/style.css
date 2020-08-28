@@ -36,7 +36,7 @@ body{
 
 #google-bar{
     margin-top: 120px;
-    margin-bottom: 140px;
+    margin-bottom: 120px;
 }
 
 #image-container{
@@ -95,20 +95,20 @@ body{
 .footer-low{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
 }
 
 .low-left{
     display:flex;
     flex-direction: row;
+    justify-content: flex-start;
     list-style-type: none;
 }
 
 .low-right{
     display:flex;
     flex-direction: row;
+    justify-content: flex-end;
     list-style-type: none;
-    margin-right:auto;  
 }
 
 .footer-links{
@@ -116,4 +116,9 @@ body{
     margin: 0px 4px;
     align-self:center;
     text-decoration: none;
+}
+
+
+#horizontal-line{
+    color:darkgray;
 }
